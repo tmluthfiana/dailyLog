@@ -8,11 +8,12 @@ import (
 	"net/http"
 	"strconv"
 
+	"dailyLog/api/auth"
+	"dailyLog/api/models"
+	"dailyLog/api/responses"
+	"dailyLog/api/utils/formaterror"
+
 	"github.com/gorilla/mux"
-	"github.com/tmluthfiana/dailyLog/api/auth"
-	"github.com/tmluthfiana/dailyLog/api/models"
-	"github.com/tmluthfiana/dailyLog/api/responses"
-	"github.com/tmluthfiana/dailyLog/api/utils/formaterror"
 )
 
 func (server *Server) CreatePost(w http.ResponseWriter, r *http.Request) {

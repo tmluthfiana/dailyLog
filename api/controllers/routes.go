@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/tmluthfiana/dailyLog/api/middlewares"
+import "dailyLog/api/middlewares"
 
 func (s *Server) initializeRoutes() {
 

@@ -5,9 +5,10 @@ import (
 	"log"
 	"os"
 
+	"dailyLog/api/controllers"
+	"dailyLog/api/seed"
+
 	"github.com/joho/godotenv"
-	"github.com/tmluthfiana/dailyLog/api/controllers"
-	"github.com/tmluthfiana/dailyLog/api/seed"
 )
 
 var server = controllers.Server{}

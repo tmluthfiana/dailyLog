@@ -3,8 +3,9 @@ package seed
 import (
 	"log"
 
+	"dailyLog/api/models"
+
 	"github.com/jinzhu/gorm"
-	"github.com/tmluthfiana/dailyLog/api/models"
 )
 
 var users = []models.User{
