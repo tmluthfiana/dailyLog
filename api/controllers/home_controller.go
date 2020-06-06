@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"dailyLog/api/responses"
+	"github.com/tmluthfiana/dailyLog/api/responses"
 )
 
 func (server *Server) Home(w http.ResponseWriter, r *http.Request) {

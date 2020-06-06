@@ -1,6 +1,6 @@
 package main
 
-import "dailyLog/api"
+import "github.com/tmluthfiana/dailyLog/api"
 
 func main() {
 	api.Run()

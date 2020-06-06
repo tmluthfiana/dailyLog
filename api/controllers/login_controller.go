@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"dailyLog/api/auth"
-	"dailyLog/api/models"
-	"dailyLog/api/responses"
-	"dailyLog/api/utils/formaterror"
+	"github.com/tmluthfiana/dailyLog/api/auth"
+	"github.com/tmluthfiana/dailyLog/api/models"
+	"github.com/tmluthfiana/dailyLog/api/responses"
+	"github.com/tmluthfiana/dailyLog/api/utils/formaterror"
 
 	"golang.org/x/crypto/bcrypt"
 )

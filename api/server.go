@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"dailyLog/api/controllers"
-	"dailyLog/api/seed"
+	"github.com/tmluthfiana/dailyLog/api/controllers"
+	"github.com/tmluthfiana/dailyLog/api/seed"
 
 	"github.com/joho/godotenv"
 )

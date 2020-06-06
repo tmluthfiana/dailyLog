@@ -3,7 +3,7 @@ package seed
 import (
 	"log"
 
-	"dailyLog/api/models"
+	"github.com/tmluthfiana/dailyLog/api/models"
 
 	"github.com/jinzhu/gorm"
 )
