@@ -11,4 +11,5 @@ require (
 	github.com/joho/godotenv v1.3.0
 	github.com/tmluthfiana/dailyLog v0.0.0-20200605092410-3e7d5d980f09
 	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9
+	gopkg.in/go-playground/assert.v1 v1.2.1
 )
