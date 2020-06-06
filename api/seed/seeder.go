@@ -3,21 +3,21 @@ package seed
 import (
 	"log"
 
-	"github.com/tmluthfiana/dailyLog/api/models"
+	"dailyLog/api/models"
 
 	"github.com/jinzhu/gorm"
 )
 
 var users = []models.User{
 	models.User{
-		Nickname: "Steven victor",
-		Email:    "steven@gmail.com",
-		Password: "password",
+		Nickname: "Trias Luthfiana",
+		Email:    "triasluth@gmail.com",
+		Password: "@Password1",
 	},
 	models.User{
-		Nickname: "Martin Luther",
-		Email:    "luther@gmail.com",
-		Password: "password",
+		Nickname: "Trias Mining",
+		Email:    "jetis.warujayeng01@gmail.com",
+		Password: "@Password2",
 	},
 }
 
